@@ -1,56 +1,54 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #1f1f2e; /* Matches the dark purple tone */
-  }
+    background-color: #302c42;
+}
 
-  /* Navbar container */
-  .navbar {
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 40px;
-    background-color: #1f1f2e;
+    background-color: #302c42;
     color: #ffffff;
-  }
+}
 
-  /* Logo */
-  .navbar .logo {
+.navbar .logo {
     display: flex;
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    color: #b4aee8; /* Light purple for logo */
-  }
+    color: #b4aee8;
+}
 
-  .logo span {
+.logo span {
     font-size: 40px;
-  }
+}
 
-  /* Navigation links */
-  .navbar .nav-links {
+
+.navbar .nav-links {
     display: flex;
     gap: 20px;
-  }
+}
 
-  .nav-links a {
+.nav-links a {
     text-decoration: none;
     color: #ffffff;
     font-size: 16px;
     transition: color 0.3s;
-  }
+}
 
-  .nav-links a:hover {
+.nav-links a:hover {
     color: #b4aee8;
-  }
+}
 
-  /* Buttons */
-  .navbar .buttons {
+
+.navbar .buttons {
     display: flex;
     gap: 15px;
-  }
+}
 
-  .navbar .buttons button {
+.navbar .buttons button {
     padding: 8px 20px;
     border: 2px solid #ffffff;
     background: none;
@@ -59,15 +57,178 @@ body {
     font-size: 14px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-  }
+}
 
-  .buttons .join-btn {
+.buttons .join-btn {
     background-color: #b4aee8;
     color: #1f1f2e;
     border: none;
-  }
+}
 
-  .buttons button:hover {
+.buttons button:hover {
     background-color: #ffffff;
     color: #1f1f2e;
-  }
+}
+
+
+.why-build {
+    padding: 40px;
+    background-color: #282142;
+}
+
+.why-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.why-header h1 {
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.why-header p {
+    font-size: 16px;
+    color: #b3b3cc;
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-card {
+    background-color: #3f357a;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    width: calc(25% - 20px);
+    /* Four cards in a row */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.feature-card h2 {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.feature-card p {
+    font-size: 14px;
+    color: #b3b3cc;
+    line-height: 1.4;
+    margin: 10px 0 20px;
+}
+
+.feature-card button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feature-card button:hover {
+    background-color: #554dbe;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #2C2338;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.intro-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro-section h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.intro-section p {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.services-section {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    gap: 40px;
+}
+
+.image-placeholder {
+    width: 400px;
+    height: 300px;
+    background-color: #3E2F4D;
+    border-radius: 15px;
+}
+
+.services-content {
+    flex: 1;
+}
+
+.services-content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.services-content h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.services-content p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.services-content button {
+    background-color: #6C5B7B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.services-content button:hover {
+    background-color: #563D64;
+}
